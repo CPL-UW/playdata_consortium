@@ -72,17 +72,17 @@ ul {
 
 #navbar {
   margin: 0 auto;
-  width: 510px;
+  width: 960px;
   height: 65px;
-  font-family: 'adelle-sans', sans-serif; }
+  font-family: 'adelle-sans', sans-serif;
+  text-align: center; }
 
 #navbar li {
-  width: 15px;
   color: #505050;
-  font-size: 12px;
+  font-size: 13.5px;
   letter-spacing: 1px;
   padding: 5px;
-  margin: 15px;
+  margin: 40px;
   position: relative;
   top: 35%;
   display: inline;
@@ -210,12 +210,13 @@ ul {
   min-height: 500px; }
 
 #content {
+  text-align: center;
   background-image: url("images/texturetastic_gray.png");
-  padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
   width: 960px;
-  height: 500px; }
+  height: 520px; }
 
 #contentlandingpage {
   overflow: hidden;
@@ -241,6 +242,7 @@ ul {
   width: 460px; }
 
 #leftcontent img {
+  border-radius: 2%;
   opacity: 1;
   transition: opacity .75s ease-in;
   -moz-transition: opacity .75s ease-in;
@@ -264,8 +266,9 @@ ul {
   font-family: 'adelle-sans', sans-serif;
   letter-spacing: .025em;
   line-height: 18px;
-  font-size: 13px;
-  color: #505050; }
+  font-size: 12px;
+  color: #505050;
+  text-align: left; }
 
 /* resources */
 #maincontent_container_resources {
@@ -285,11 +288,15 @@ ul {
   height: 120px;
   background: white;
   float: left;
-  margin: 10px; }
+  margin: 10px;
+  border-radius: 5%; }
 
 .linkcontainer {
   width: 380px;
   height: 120px; }
+
+.linkcontainer img {
+  border-radius: 5%; }
 
 #resourcescontentleft {
   overflow: hidden;
@@ -430,6 +437,9 @@ ul {
   -webkit-transition: opacity .25s ease-in;
   overflow: visible; }
 
+.membercontainer img {
+  border-radius: 5%; }
+
 .membercontainer:hover > .memberinfo h2 {
   transition: opacity .25s ease-in;
   -moz-transition: opacity .25s ease-in;
@@ -446,7 +456,7 @@ ul {
   visibility: visible; }
 
 .memberinfo {
-  padding: 20px;
+  padding: 15px;
   width: 230px;
   height: 228px;
   position: absolute;
@@ -454,7 +464,8 @@ ul {
   background-image: url("images/transparency.png");
   visibility: hidden;
   z-index: 100;
-  overflow: hidden; }
+  overflow: hidden;
+  border-radius: 48%; }
 
 .memberinfo h2 {
   text-align: center;
@@ -464,7 +475,7 @@ ul {
   color: #505050; }
 
 .memberinfo p {
-  text-align: justify;
+  text-align: center;
   opacity: .2;
   color: #505050;
   font-family: 'adelle-sans', sans-serif; }
