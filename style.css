@@ -610,8 +610,8 @@ a.linkto:hover {
 
 .dots li {
   text-indent: -999em;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   margin: 0 4px;
   border: 2px solid #fff;
   border-radius: 6px;
@@ -623,7 +623,7 @@ a.linkto:hover {
   transition: background .5s, opacity .5s; }
 
 .dots li.active {
-  background: #fff;
+  background: #7da976;
   opacity: 1; }
 
 .slider p {
