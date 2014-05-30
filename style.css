@@ -74,24 +74,25 @@ ul {
   box-shadow: inset -4px 35px 38px -14px rgba(0, 0, 0, 0.3); }
 
 .border_top {
-  border-top: 3px solid #505050; }
+  border-top: 2px solid #505050; }
 
 /* Nav Bar */
 #navbarholder {
+  border-top: .2em solid #505050;
   width: 100%;
   background-image: url("images/texturetastic_gray.png"); }
 
 #navbar {
+  border-left: 0.2em solid #505050;
   margin: 0 auto;
   width: 960px;
-  height: 67px;
+  height: 50px;
   font-family: 'adelle-sans', sans-serif;
   text-align: center;
   overflow: hidden;
   margin-bottom: -2px; }
 
 #navbar li {
-  opacity: .9;
   color: #505050;
   font-size: 13px;
   letter-spacing: 1px;
@@ -106,7 +107,7 @@ ul {
 
 #navbar li:hover {
   opacity: 1;
-  border-bottom: 3px solid #505050; }
+  border-bottom: 2px solid #505050; }
 
 #navbar li a:link {
   color: #505050; }
@@ -132,7 +133,7 @@ ul {
 
 #twittercontainer {
   padding-top: 15px;
-  border-top: .1em solid #bebebe;
+  border-top: .1em solid #505050;
   float: left;
   width: 100%;
   height: 32px; }
@@ -229,7 +230,7 @@ ul {
   margin-right: auto;
   padding-top: 20px;
   width: 960px;
-  height: 520px; }
+  height: 535px; }
 
 #content_getting_involved {
   text-align: center;
@@ -247,14 +248,19 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  min-height: 1285px; }
+  min-height: 825px; }
 
 #leftcontent {
   overflow: hidden;
   float: left;
   margin-top: 10px;
-  height: 460px;
+  height: 480px;
   width: 460px;
+  font-size: 11px;
+  line-height: 23px;
+  color: #505050; }
+
+#leftcontent img {
   -webkit-box-shadow: 2px 2px 12px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 2px 2px 12px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 2px 2px 12px 0px rgba(50, 50, 50, 0.75); }
@@ -268,6 +274,7 @@ ul {
   width: 460px; }
 
 #rightcontent p {
+  margin-top: 3px;
   font-family: 'brandon-grotesque', sans-serif;
   line-height: 24px;
   font-size: 16px;
@@ -277,7 +284,6 @@ ul {
   font-weight: 300; }
 
 #rightcontent h2 {
-  margin-bottom: 10px;
   font-family: 'brandon-grotesque', sans-serif;
   text-transform: uppercase;
   letter-spacing: .075em;
@@ -299,25 +305,27 @@ a.linkto:hover {
 
 #content_resources_page {
   background-image: url("images/texturetastic_gray.png");
-  padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  height: 600px; }
+  height: 680px; }
 
 #linkimage {
-  width: 120px;
-  height: 120px;
+  width: 175px;
+  height: 175px;
   background: white;
   float: left;
   margin: 10px;
   border-radius: 5%; }
 
 .linkcontainer {
-  width: 380px;
-  height: 120px; }
+  width: 480px;
+  height: 120px;
+  padding-top: 20px; }
 
 .linkcontainer img {
+  width: 175px;
+  height: 175px;
   -webkit-box-shadow: 2px 2px 12px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 2px 2px 12px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 2px 2px 12px 0px rgba(50, 50, 50, 0.75);
@@ -335,17 +343,15 @@ a.linkto:hover {
 #resourcescontentleft {
   overflow: hidden;
   float: left;
-  width: 460px; }
+  width: 960px; }
 
 #resourcescontentleft ul {
-  width: 75%;
   margin-left: auto;
   margin-right: auto; }
 
 #resourcescontentleft li {
   display: block;
-  float: left;
-  margin: 20px; }
+  float: left; }
 
 #resourcescontentleft h2 {
   font-family: 'brandon-grotesque', sans-serif;
@@ -353,12 +359,9 @@ a.linkto:hover {
   padding-top: 7px;
   color: #505050; }
 
-#resourcescontentleft h2:hover {
-  opacity: .5; }
-
 #resourcescontentleft p {
   color: #505050;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300; }
 
 /* end resources */
@@ -488,8 +491,8 @@ footer {
 /* member profiles */
 .membercontainer {
   margin-top: 20px;
-  width: 230px;
-  height: 230px;
+  width: 180px;
+  height: 180px;
   margin-left: 10px;
   float: left;
   transition: opacity .25s ease-in;
@@ -505,8 +508,8 @@ footer {
   opacity: .5; }
 
 .membercontainer img {
-  width: 230px;
-  height: 230px;
+  width: 175px;
+  height: 175px;
   -webkit-box-shadow: 2px 2px 12px 0px rgba(50, 50, 50, 0.5);
   -moz-box-shadow: 2px 2px 12px 0px rgba(50, 50, 50, 0.5);
   box-shadow: 2px 2px 12px 0px rgba(50, 50, 50, 0.5); }
