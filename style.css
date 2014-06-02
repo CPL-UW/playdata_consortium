@@ -83,7 +83,6 @@ ul {
   background-image: url("images/texturetastic_gray.png"); }
 
 #navbar {
-  border-left: 0.2em solid #505050;
   margin: 0 auto;
   width: 960px;
   height: 50px;
@@ -106,8 +105,8 @@ ul {
   -webkit-transition: border-bottom .25s ease-in-out; }
 
 #navbar li:hover {
-  opacity: 1;
-  border-bottom: 2px solid #505050; }
+  background-color: #7da976;
+  border-bottom: .2em solid #505050; }
 
 #navbar li a:link {
   color: #505050; }

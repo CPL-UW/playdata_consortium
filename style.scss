@@ -101,7 +101,6 @@ box-shadow: inset -4px 35px 38px -14px rgba(0,0,0,0.3);
 }
 
 #navbar {
-    border-left: .2em solid #505050 ;
     margin: 0 auto;
     width: 960px;
     height: 50px;
@@ -126,8 +125,8 @@ box-shadow: inset -4px 35px 38px -14px rgba(0,0,0,0.3);
 }
 
 #navbar li:hover {
-  opacity: 1;
-  border-bottom: 2px solid #505050;
+  background-color: #7da976;
+  border-bottom: .2em solid #505050;
 }
 
 #navbar li a:link {
