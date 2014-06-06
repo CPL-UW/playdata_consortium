@@ -166,7 +166,7 @@ box-shadow: inset -4px 35px 38px -14px rgba(0,0,0,0.3);
 #topheaderholder {
     padding-top: 25px;
     width: 100%;
-    background-image: url('images/texturetastic_gray.png');
+    background-image: url('images/pixel_weave.png');
 }
 
 #topheader {
@@ -247,13 +247,13 @@ box-shadow: inset -4px 35px 38px -14px rgba(0,0,0,0.3);
 /* End Misc Bars */
 
 #maincontent_container {
-  background-color: #eee;
+  background-image: url('images/pixel_weave.png');
   width: 100%;
 }
 
 #content {
   text-align: center;
-  background-color: #eee;
+  background-image: url('images/pixel_weave.png');
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
@@ -343,12 +343,12 @@ a.linkto:hover {
 /* resources */
 
 #maincontent_container_resources {
-  background-color: #eee;
+  background-image: url('images/pixel_weave.png');
   width: 100%;
 }
 
 #content_resources_page {
-  background-color: #eee;
+  background-image: url('images/pixel_weave.png');
   margin-left: auto;
   margin-right: auto;
   width: 960px;
