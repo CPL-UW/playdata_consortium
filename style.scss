@@ -66,20 +66,12 @@ ul {
   border-top: solid 1px #c3c2c2;
 }
 
+.bottomborder {
+  border-bottom: solid 1px #c3c2c2;
+}
+
 .pagewrap{
 
-}
-
-.shadow_top {
--webkit-box-shadow: 0px -7px 150px 0px rgba(50, 50, 50, 1);
--moz-box-shadow:    0px -7px 150px 0px rgba(50, 50, 50, 1);
-box-shadow:         0px -7px 150px 0px rgba(50, 50, 50, 1);
-}
-
-.shadow_bottom {
--webkit-box-shadow: 0px 9px 18px 0px rgba(50, 50, 50, 1);
--moz-box-shadow:    0px 9px 18px 0px rgba(50, 50, 50, 1);
-box-shadow:         0px 9px 18px 0px rgba(50, 50, 50, 1);
 }
 
 .shadow_inset {
@@ -88,53 +80,52 @@ box-shadow:         0px 9px 18px 0px rgba(50, 50, 50, 1);
 box-shadow: inset -4px 35px 38px -14px rgba(0,0,0,0.3);
 }
 
-.border_top {
-  border-top: 2px solid #505050;
-}
-
 /* Nav Bar */
 
 #navbarholder{
-    border-top: .2em solid #505050;
     width: 100%;
-    background-image: url('images/texturetastic_gray.png');
+    background-color: #373737;
 }
 
 #navbar {
+    background-color: #373737;
     margin: 0 auto;
+    padding-top: 5px;
     width: 960px;
-    height: 50px;
-    font-family: 'adelle-sans', sans-serif;
+    height: 35px; 
     text-align: center;
     overflow: hidden;
     margin-bottom: -2px;
+    
+}
+
+#navbar ul {
+  display: block;
 }
 
 #navbar li {
-    color: #505050;
-    font-size: 13px;
+    color: #eee;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
     letter-spacing: 1px;
-    padding: 5px;
-    margin: 40px;
-    position: relative;
-    top: 35%;
+    margin: 50px;
     display: inline;
-    transition: border-bottom .25s ease-in-out;
-    -moz-transition: border-bottom .25s ease-in-out;
-    -webkit-transition: border-bottom .25s ease-in-out;
 }
 
-#navbar li:hover {
-  background-color: #7da976;
-  border-bottom: .2em solid #505050;
+#navbar li a {
 }
 
 #navbar li a:link {
-  color: #505050;
+  color: #eee;
 }
 
 #navbar li a:visited {
-  color: #505050;
+  color: #eee;
+}
+
+#navbar li a:hover {
+  color: #7da976;
 }
 
 /* Social Buttons */
@@ -158,7 +149,7 @@ box-shadow: inset -4px 35px 38px -14px rgba(0,0,0,0.3);
 
 #twittercontainer {
   padding-top: 15px;
-  border-top: .1em solid #505050;
+  border-top: .1em solid #cfcfcf;
   float: left;
   width: 100%;
   height: 32px;
@@ -209,8 +200,9 @@ box-shadow: inset -4px 35px 38px -14px rgba(0,0,0,0.3);
 #bar {
     overflow: hidden;
     width: 100%;
-    height: 13px;
+    height: 7px;
     background-color: #dddddd;
+
 }
 
 #textbar
@@ -255,18 +247,18 @@ box-shadow: inset -4px 35px 38px -14px rgba(0,0,0,0.3);
 /* End Misc Bars */
 
 #maincontent_container {
-  background-image: url('images/texturetastic_gray.png');
+  background-color: #eee;
   width: 100%;
 }
 
 #content {
   text-align: center;
-  background-image: url('images/texturetastic_gray.png');
+  background-color: #eee;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
+  padding-top: 10px;
   width: 960px;
-  height: 535px;
+  height: 500px;
 }
 
 #content_getting_involved {
@@ -351,12 +343,12 @@ a.linkto:hover {
 /* resources */
 
 #maincontent_container_resources {
-  background-image: url('images/texturetastic_gray.png');
+  background-color: #eee;
   width: 100%;
 }
 
 #content_resources_page {
-  background-image: url('images/texturetastic_gray.png');
+  background-color: #eee;
   margin-left: auto;
   margin-right: auto;
   width: 960px;
@@ -454,7 +446,7 @@ footer {
 
 #footercontainer {
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 50px;
   margin: 0 auto;
   height: auto;
   width: 690px;
@@ -462,6 +454,10 @@ footer {
 
 #footercontainer p {
   text-align: center;
+}
+
+.space {
+  margin-top: 10px;
 }
 
 .copyright {
@@ -472,7 +468,23 @@ footer {
   letter-spacing: .06em;
   font-size: 12px;
   text-transform: uppercase;
-  
+}
+
+.copyright ul {
+  color: #7a7a7a;
+}
+
+.copyright ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.copyright a {
+  color: #7a7a7a;
+}
+
+.copyright a:hover {
+  color: #eee;
 }
 
 /* bottom logos */
