@@ -93,11 +93,10 @@ ul {
     text-align: center;
     overflow: hidden;
     margin-bottom: -2px;
-    
 }
 
 #navbar ul {
-  display: block;
+    display: block;
 }
 
 #navbar li {
@@ -785,6 +784,37 @@ background: #373737;
 #content_getting_involved {
   min-height: 750px;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  
+  #navbarholder{
+    width: 100%;
+    background-color: #505050;
+
+}
+  
+  #navbar {
+    height: auto;
+    width: 100%;
+  }
+  
+  #navbar li {
+    width: 100%;
+    display: block;
+    margin: 25px auto;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #3f3f3f;
+    
+  }
+  
+  
+}
+
 
 
 	}
