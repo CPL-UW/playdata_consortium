@@ -370,13 +370,10 @@ footer {
 
 #footercontainer {
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 40px;
   margin: 0 auto;
   height: auto;
-  width: 690px; }
-
-#footercontainer p {
-  text-align: center; }
+  width: 860px; }
 
 .space {
   margin-top: 10px; }
@@ -404,6 +401,10 @@ footer {
   color: #eee; }
 
 /* bottom logos */
+ul.footerlogos li {
+  display: inline-block;
+  margin-left: 25px; }
+
 .gls {
   display: inline;
   background: url("images/footer_logo_sprite.png") no-repeat -10px -85px;

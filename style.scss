@@ -440,14 +440,10 @@ footer {
 
 #footercontainer {
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 40px;
   margin: 0 auto;
   height: auto;
-  width: 690px;
-}
-
-#footercontainer p {
-  text-align: center;
+  width: 860px;
 }
 
 .space {
@@ -482,6 +478,18 @@ footer {
 }
 
 /* bottom logos */
+
+
+ul.footerlogos {
+
+  li {
+    
+    display: inline-block;
+    margin-left: 25px;
+    
+  }
+  
+}
 
 .gls {
   display: inline;
