@@ -177,7 +177,7 @@ ul {
   /* IE10+ */
   background: linear-gradient(to bottom, white 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
   /* IE6-9 */
   border-top: solid 1px #c3c2c2;
   border-bottom: solid 1px #c3c2c2; }
@@ -698,3 +698,5 @@ html {
 
   html {
     background: #2a2a2a; } }
+
+/*# sourceMappingURL=style.css.map */
