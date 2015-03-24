@@ -276,6 +276,12 @@ ul {
   text-align: left;
   font-weight: 500; }
 
+#rightcontent a {
+  color: #777;
+  font-weight: bold; }
+  #rightcontent a:hover {
+    color: #999; }
+
 .linkto {
   color: #505050;
   font-weight: 500;
